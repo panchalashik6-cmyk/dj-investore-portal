@@ -1,0 +1,182 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "section": "Personal information",
+      "label": "What is your full legal name?",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "q2",
+      "section": "Personal information",
+      "label": "What is your email address?",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "q3",
+      "section": "Personal information",
+      "label": "What is your country of residence?",
+      "type": "dropdown",
+      "required": true,
+      "options": [
+        "India",
+        "United States",
+        "United Kingdom",
+        "Canada",
+        "United Arab Emirates",
+        "Other"
+      ]
+    },
+    {
+      "id": "q4",
+      "section": "Personal information",
+      "label": "What is your date of birth?",
+      "type": "date",
+      "required": true
+    },
+    {
+      "id": "q5",
+      "section": "Immigration objectives",
+      "label": "What is your primary immigration objective?",
+      "type": "radio",
+      "required": true,
+      "options": [
+        "Permanent residency",
+        "Business expansion",
+        "Family relocation",
+        "Education"
+      ]
+    },
+    {
+      "id": "q6",
+      "section": "Immigration objectives",
+      "label": "When would you ideally like to begin?",
+      "type": "dropdown",
+      "required": true,
+      "options": [
+        "Immediately",
+        "Within 3 months",
+        "Within 6 months",
+        "Within 12 months",
+        "Just exploring"
+      ]
+    },
+    {
+      "id": "q7",
+      "section": "Investment readiness",
+      "label": "What is your estimated investment range (USD)?",
+      "type": "number",
+      "required": true
+    },
+    {
+      "id": "q8",
+      "section": "Investment readiness",
+      "label": "What is your expected investment timeline?",
+      "type": "date",
+      "required": false
+    },
+    {
+      "id": "q9",
+      "section": "Source of funds",
+      "label": "Which sources will fund your investment?",
+      "type": "checkbox",
+      "required": true,
+      "options": [
+        "Business income",
+        "Personal savings",
+        "Property sale",
+        "Inheritance",
+        "Other"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "Source of funds",
+      "label": "Please explain your other source of funds.",
+      "type": "textarea",
+      "required": true,
+      "condition": {
+        "questionId": "q9",
+        "includes": "Other"
+      }
+    }
+  ],
+  "advisors": [
+    {
+      "id": 1,
+      "name": "Michael Anderson",
+      "role": "Senior Immigration Advisor",
+      "expertise": [
+        "Investor Visa",
+        "Business Immigration"
+      ],
+      "experience": "12 years",
+      "bio": "Supports investor families with structured immigration planning and application readiness.",
+      "initials": "MA",
+      "color": "sand"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Williams",
+      "role": "Investment Migration Consultant",
+      "expertise": [
+        "Investment Planning",
+        "Family Relocation"
+      ],
+      "experience": "9 years",
+      "bio": "Helps clients understand investment pathways, documentation and family relocation options.",
+      "initials": "SW",
+      "color": "rose"
+    },
+    {
+      "id": 3,
+      "name": "David Miller",
+      "role": "Immigration Strategy Advisor",
+      "expertise": [
+        "Business Immigration",
+        "Investor Visa"
+      ],
+      "experience": "15 years",
+      "bio": "Focuses on business-led immigration strategies and clear application preparation.",
+      "initials": "DM",
+      "color": "sage"
+    }
+  ],
+  "kq-submissions": [
+    {
+      "id": 1,
+      "userId": "demo-investor-01",
+      "answers": {},
+      "status": "Draft",
+      "progress": 0,
+      "createdAt": "2026-11-03T09:00:00.000Z",
+      "updatedAt": "2026-11-03T09:00:00.000Z",
+      "reviewHistory": [],
+      "clarificationQuestions": []
+    }
+  ],
+  "advisor-selections": [],
+  "meetings": [
+    {
+      "id": 1,
+      "advisorId": 1,
+      "date": "2026-11-10",
+      "time": "11:00 AM",
+      "purpose": "Initial investment discussion",
+      "message": "I would like to understand the next steps.",
+      "status": "CONFIRMED",
+      "createdAt": "2026-11-03T10:00:00.000Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "title": "Investor portal created",
+      "description": "Your demo onboarding workspace is ready.",
+      "date": "2026-11-03T09:00:00.000Z",
+      "type": "system"
+    }
+  ]
+}
