@@ -21,7 +21,30 @@ export function AppProvider({ children }) {
   }, []);
   useEffect(() => { refresh(); }, [refresh]);
 
-  const currentSubmission = submissions[0] || null;
+  // Retrieve latest submission with local persistence fallback
+  let currentSubmission = null;
+  if (submissions.length > 0) {
+    const sorted = [...submissions].sort((a, b) => {
+      const timeA = new Date(a.updatedAt || a.createdAt || 0).getTime();
+      const timeB = new Date(b.updatedAt || b.createdAt || 0).getTime();
+      return timeB - timeA;
+    });
+    currentSubmission = sorted[0];
+  }
+  try {
+    const local = localStorage.getItem("dj_kq_submission_backup");
+    if (local) {
+      const parsed = JSON.parse(local);
+      if (
+        !currentSubmission ||
+        (parsed.status !== "Draft" && currentSubmission.status === "Draft") ||
+        new Date(parsed.updatedAt || 0) > new Date(currentSubmission?.updatedAt || 0)
+      ) {
+        currentSubmission = parsed;
+      }
+    }
+  } catch (_) {}
+
   const selectedAdvisorId = selections.length ? selections[selections.length - 1].advisorId : null;
   const selectedAdvisor = advisors.find(a => String(a.id) === String(selectedAdvisorId)) || null;
   const value = { advisors, meetings, submissions, selections, activities, loading, apiError, refresh, currentSubmission, selectedAdvisor };

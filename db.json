@@ -108,12 +108,52 @@
       "id": 1,
       "name": "Michael Anderson",
       "role": "Senior Immigration Advisor",
+      "introduction": "Senior legal counsel with 12+ years structuring tier-1 residency and golden visa pathways for global families.",
+      "availability": "Available Today",
       "expertise": [
         "Investor Visa",
-        "Business Immigration"
+        "Business Immigration",
+        "Permanent Residency",
+        "Investment Advisory"
+      ],
+      "specializations": [
+        "Investor Immigration",
+        "Business Immigration",
+        "Permanent Residency",
+        "Investment Advisory",
+        "Immigration Documentation",
+        "Client Consultation"
       ],
       "experience": "12 years",
-      "bio": "Supports investor families with structured immigration planning and application readiness.",
+      "rating": 4.9,
+      "location": "London, UK",
+      "email": "m.anderson@dj-immigration.com",
+      "phone": "+44 20 7946 0192",
+      "languages": [
+        "English",
+        "German"
+      ],
+      "image": "/portraits/advisor-1.jpg",
+      "bio": "Michael Anderson leads our European & UK private client practice, advising high-net-worth investor families and entrepreneurs on cross-border citizenship, investor visas, and institutional compliance. He has guided hundreds of global applicants through complex regulatory environments with meticulous legal diligence.",
+      "qualifications": [
+        "LL.B. (Hons) International Commercial Law – King's College London",
+        "Postgraduate Diploma in Legal Practice (LPC) – BPP University Law School"
+      ],
+      "certifications": [
+        "OISC Registered Senior Immigration Specialist (Level 3)",
+        "STEP Affiliate – Society of Trust and Estate Practitioners"
+      ],
+      "licenses": [
+        "Solicitors Regulation Authority (SRA) Regulated Counsel #629104",
+        "The Law Society of England and Wales Registered Member"
+      ],
+      "achievements": [
+        "99.4% Investor Visa Approval Rate across 340+ international family applications",
+        "Processed over £220M in qualifying UK and European direct investor capital",
+        "Recognized in Private Client Global Legal 500 (2024–2026)"
+      ],
+      "consultationInfo": "45-minute private strategy session evaluating program quotas, source of wealth compliance, and expedited residency timelines.",
+      "clientSupport": "Dedicated case manager assigned for apostille verification, embassy liaison, and certified multi-language document translation.",
       "initials": "MA",
       "color": "sand"
     },
@@ -121,12 +161,52 @@
       "id": 2,
       "name": "Sarah Williams",
       "role": "Investment Migration Consultant",
+      "introduction": "Investment migration consultant focusing on Gulf, Caribbean, and European residence-by-investment structures.",
+      "availability": "Accepting New Portfolios",
       "expertise": [
         "Investment Planning",
-        "Family Relocation"
+        "Family Relocation",
+        "Permanent Residency",
+        "Client Consultation"
+      ],
+      "specializations": [
+        "Investor Immigration",
+        "Business Immigration",
+        "Permanent Residency",
+        "Investment Advisory",
+        "Immigration Documentation",
+        "Client Consultation"
       ],
       "experience": "9 years",
-      "bio": "Helps clients understand investment pathways, documentation and family relocation options.",
+      "rating": 4.8,
+      "location": "Dubai, UAE",
+      "email": "s.williams@dj-immigration.com",
+      "phone": "+971 4 312 8840",
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "image": "/portraits/advisor-2.jpg",
+      "bio": "Sarah Williams manages Middle East and Mediterranean residency acquisitions for international executive families. Her focus is capital investment pathways, commercial real estate selection, family golden visa filings, and seamless relocation logistics.",
+      "qualifications": [
+        "B.A. in International Relations & Economics – University of Edinburgh",
+        "M.Sc. in Global Wealth Planning – London School of Economics"
+      ],
+      "certifications": [
+        "Investment Migration Council (IMC) Certified Practitioner",
+        "Chartered Institute for Securities & Investment (CISI) Member"
+      ],
+      "licenses": [
+        "UAE Ministry of Justice Licensed Legal Consultant #DM-4410",
+        "DIFC Courts Registered Legal Practitioner"
+      ],
+      "achievements": [
+        "Successfully assisted 280+ executive families relocate to the UAE, Portugal, and Greece",
+        "Keynote Speaker at the Global Investment Migration Summit 2025",
+        "100% compliance record on institutional anti-money laundering source audits"
+      ],
+      "consultationInfo": "Strategic review comparing UAE Golden Visas, European real estate programs, and family permit sequencing.",
+      "clientSupport": "End-to-end concierge support including Emirates ID processing, international school admissions, and private banking introduction.",
       "initials": "SW",
       "color": "rose"
     },
@@ -134,30 +214,142 @@
       "id": 3,
       "name": "David Miller",
       "role": "Immigration Strategy Advisor",
+      "introduction": "Corporate immigration attorney specializing in US EB-5 investor visas, L-1 executive transfers, and institutional mobility.",
+      "availability": "Available Tomorrow",
       "expertise": [
         "Business Immigration",
-        "Investor Visa"
+        "Investor Visa",
+        "Investment Advisory",
+        "Immigration Documentation"
+      ],
+      "specializations": [
+        "Investor Immigration",
+        "Business Immigration",
+        "Permanent Residency",
+        "Investment Advisory",
+        "Immigration Documentation",
+        "Client Consultation"
       ],
       "experience": "15 years",
-      "bio": "Focuses on business-led immigration strategies and clear application preparation.",
+      "rating": 5.0,
+      "location": "New York, USA",
+      "email": "d.miller@dj-immigration.com",
+      "phone": "+1 212 555 0178",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "image": "/portraits/advisor-3.jpg",
+      "bio": "David Miller is a veteran immigration attorney in New York advising institutional enterprises, technology founders, and ultra-high-net-worth investors on US residency, targeted employment area capital deployment, and enterprise immigration structuring.",
+      "qualifications": [
+        "Juris Doctor (J.D.) – Columbia Law School, New York",
+        "B.S. in Finance & Political Economy – Georgetown University"
+      ],
+      "certifications": [
+        "American Immigration Lawyers Association (AILA) Member",
+        "Certified Foreign Investment Due Diligence Specialist"
+      ],
+      "licenses": [
+        "New York State Bar Association Admitted Attorney #491208",
+        "U.S. District Court for the Southern District of New York (SDNY)"
+      ],
+      "achievements": [
+        "Represented over 420 successful EB-5 and E-2 enterprise visa petitioners",
+        "Facilitated over $350M capital deployed into qualifying US commercial infrastructure",
+        "Contributing Author to 'The Institutional Guide to US Investor Visas'"
+      ],
+      "consultationInfo": "Exhaustive legal review assessing Regional Center projects vs. Direct EB-5 investments, job creation benchmarks, and consular filings.",
+      "clientSupport": "Multi-jurisdictional legal team coordinating with your personal wealth managers, CPAs, and escrow administrators.",
       "initials": "DM",
       "color": "sage"
+    },
+    {
+      "id": 4,
+      "name": "Elena Rostova",
+      "role": "Private Client Partner",
+      "introduction": "Private client partner guiding international family offices on Swiss residency, Mediterranean citizenship, and succession.",
+      "availability": "Slots Available This Week",
+      "expertise": [
+        "Wealth Migration",
+        "Family Relocation",
+        "Permanent Residency",
+        "Investment Advisory"
+      ],
+      "specializations": [
+        "Investor Immigration",
+        "Business Immigration",
+        "Permanent Residency",
+        "Investment Advisory",
+        "Immigration Documentation",
+        "Client Consultation"
+      ],
+      "experience": "11 years",
+      "rating": 4.95,
+      "location": "Geneva, Switzerland",
+      "email": "e.rostova@dj-immigration.com",
+      "phone": "+41 22 819 9200",
+      "languages": [
+        "English",
+        "French",
+        "Russian"
+      ],
+      "image": "/portraits/advisor-4.jpg",
+      "bio": "Elena Rostova counsels multinational entrepreneurs and family offices from Geneva, structuring Swiss lump-sum taxation residency, Malta citizenship by direct investment, and Caribbean mobility options. She brings deep cross-border expertise in asset structuring and intergenerational succession.",
+      "qualifications": [
+        "Master of Laws (LL.M.) in Private International Law – University of Geneva",
+        "Licence en Droit – University of Zurich Faculty of Law"
+      ],
+      "certifications": [
+        "Swiss Bar Association (SAV/FSA) Registered Attorney",
+        "International Bar Association (IBA) Immigration Committee Officer"
+      ],
+      "licenses": [
+        "Ordre des Avocats de Genève (OAG) Registered Bar Member #GE-8902",
+        "Accredited Immigration Representative – Swiss Federal Migration Office"
+      ],
+      "achievements": [
+        "11+ years advising international private clients on European lump-sum residency",
+        "Represented families across 30+ countries on residency portfolio structuring",
+        "Ranked in Who's Who Legal: Corporate Immigration & Private Client 2025"
+      ],
+      "consultationInfo": "Private briefing on Swiss cantonal fiscal agreements, Mediterranean residency requirements, and dual nationality compliance.",
+      "clientSupport": "Bespoke Swiss private advisory, family relocation coordination, and direct embassy representation.",
+      "initials": "ER",
+      "color": "gold"
     }
   ],
   "kq-submissions": [
     {
       "id": 1,
       "userId": "demo-investor-01",
-      "answers": {},
+      "answers": {
+        "q1": "panchal ashik kumar",
+        "q2": "panchalashik6@gmail.com",
+        "q3": "India",
+        "q4": "2005-06-03",
+        "q5": "Business expansion",
+        "q6": "Within 3 months",
+        "q7": "500000",
+        "q8": "22026-03-11",
+        "q9": [
+          "Personal savings"
+        ]
+      },
       "status": "Draft",
-      "progress": 0,
+      "progress": 100,
       "createdAt": "2026-11-03T09:00:00.000Z",
-      "updatedAt": "2026-11-03T09:00:00.000Z",
+      "updatedAt": "2026-11-04T06:11:13.429Z",
       "reviewHistory": [],
       "clarificationQuestions": []
     }
   ],
-  "advisor-selections": [],
+  "advisor-selections": [
+    {
+      "id": 1,
+      "advisorId": 1,
+      "selectedAt": "2026-11-03T10:00:00.000Z"
+    }
+  ],
   "meetings": [
     {
       "id": 1,
@@ -165,9 +357,29 @@
       "date": "2026-11-10",
       "time": "11:00 AM",
       "purpose": "Initial investment discussion",
-      "message": "I would like to understand the next steps.",
+      "message": "I would like to understand the next steps and golden visa timelines.",
       "status": "CONFIRMED",
       "createdAt": "2026-11-03T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "advisorId": 2,
+      "date": "2026-11-14",
+      "time": "02:00 PM",
+      "purpose": "Asset & source of funds verification",
+      "message": "Review documentation requirements for cross-border banking assets.",
+      "status": "REQUESTED",
+      "createdAt": "2026-11-04T07:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "advisorId": 3,
+      "date": "2026-11-01",
+      "time": "10:00 AM",
+      "purpose": "Initial residency consultation",
+      "message": "Preliminary legal briefing regarding family member relocation logistics.",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-28T09:30:00.000Z"
     }
   ],
   "activities": [
@@ -177,6 +389,27 @@
       "description": "Your demo onboarding workspace is ready.",
       "date": "2026-11-03T09:00:00.000Z",
       "type": "system"
+    },
+    {
+      "title": "Questionnaire submitted for review",
+      "description": "Investor responses successfully submitted to immigration legal team.",
+      "date": "2026-11-04T06:10:37.247Z",
+      "type": "questionnaire",
+      "id": 2
+    },
+    {
+      "title": "Clarification requested by legal advisor",
+      "description": "Advisor flagged 2 items requiring investor clarification.",
+      "date": "2026-11-04T06:11:04.278Z",
+      "type": "questionnaire",
+      "id": 3
+    },
+    {
+      "title": "Questionnaire returned to draft",
+      "description": "Demo profile reset to draft state for testing and re-entry.",
+      "date": "2026-11-04T06:11:13.429Z",
+      "type": "questionnaire",
+      "id": 4
     }
   ]
 }

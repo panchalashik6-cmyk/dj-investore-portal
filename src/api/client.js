@@ -2,6 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
   baseURL: "http://localhost:5000",
+  timeout: 10000,
   headers: { "Content-Type": "application/json" }
 });
 
@@ -21,6 +22,9 @@ export const getActivities = () => api.get("/activities");
 export const addActivity = (data) => api.post("/activities", data);
 
 export function getErrorMessage(error) {
+  if (error?.code === "ECONNABORTED" || error?.message?.includes("timeout")) {
+    return "The request timed out. Please check if JSON Server is running and responding on port 5000.";
+  }
   if (error?.code === "ERR_NETWORK" || error?.message === "Network Error") {
     return "Unable to connect to the demo API. Please ensure JSON Server is running on port 5000.";
   }
